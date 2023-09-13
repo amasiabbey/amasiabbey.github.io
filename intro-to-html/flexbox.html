@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="flexbox.css">
+  <title>Flexbox Practice</title>
+</head>
+
+<body style="padding-bottom: 50px;">
+
+  <div style="
+      display: flex;
+      flex-direction: row;
+    ">
+    <div style="background-color: lightblue;">div 1 text</div>
+    <div style="background-color: lightpink;">div 2 <p>text</p>
+    </div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightpink;
+      flex:1;
+    ">flex 1</div>
+  </div>
+
+  <div style="
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+    ">
+    <div style="
+      background-color: lightblue;
+      flex:1;
+    ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">flex 1</div>
+    <div style="
+     background-color: lightblue;
+     flex: 2;
+   ">flex 2</div>
+  </div>
+
+  <div style="
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 30px;
+    ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+     background-color: lightblue;
+     width: 100px;
+   ">100px</div>
+  </div>
+
+  <div style="
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 30px;
+    ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+     background-color: lightblue;
+     width: 100px;
+   ">100px</div>
+  </div>
+
+  <div style="
+      margin-top: 30px;
+      height: 70px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: gray;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    ">
+    <div style="
+      background-color: lightblue;
+      width: 100px;
+    ">100px</div>
+    <div style="
+      background-color: lightpink;
+      width: 100px;
+    ">100px</div>
+    <div style="
+     background-color: lightblue;
+     width: 100px;
+   ">100px</div>
+  </div>
+
+  <div class="container">
+    <div class="flexbox">
+      <div>Home</div>
+      <div class="notifications">14</div>
+    </div>
+
+    <div class="flexbox">
+      <div>Notifications</div>
+      <div class="notifications">3</div>
+    </div>
+
+    <div class="flexbox">
+      <div>Messages</div>
+      <div class="notifications">5</div>
+    </div>
+  </div>
+
+  <div class="nested-flexbox">
+    <p class="lesson-13-exercises">Lesson 13 Exercises - Nested Flexbox</p>
+    <!-- exercise 13a -->
+    <p class="question-13a">13a. Create a flexbox with 2 elements (width 100px and 200px). Then make the first element a flexbox to create this design:</p>
+    <div class="flex-13a">
+      <div class="pink-item">
+        <p class="item-1">item1</p>
+      </div>
+      <div class="blue-item"></div>
+    </div>
+
+    <!-- exercise 13b -->
+    <p class="question-13b">13b. Create a flexbox with 2 elements (width 100px and 200px). Then make the first element a flexbox to create this design:</p>
+    <div class="flex-13b">
+      <div class="pink-2"></div>
+      <div class="blue-2">
+        <div class="nested-column">
+          <p class="row1">row1</p>
+        </div>
+        <div class="nested-row">
+          <p class="row2">row2</p>
+          <p class="row2">row2</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="compare-flex">
+    <!-- Challenge exercises -->
+    <div class="gmail-ios">
+      <p class="all-inboxes">ALL INBOXES</p>
+      <div class="gmail-flexbox">
+        <img src="/cat.jpg" class="gmail-img">
+        <div class="gmail-text">
+          <div class="gmail-text-flex">
+            <p class="gmail-header">Chewy Promotions</p>
+            <p class="gmail-time">4:58 PM</p>
+          </div>
+          <p class="gmail-subheader">Biggest sales of the year!</p>
+          <p class="gmail-body">Hey there! We're writing to tell you about our...</p>
+        </div>
+      </div>
+    </div>
+    <!-- Challenge exercises -->
+    <div class="gmail-ios">
+      <p class="all-inboxes">ALL INBOXES</p>
+      <!-- first mail -->
+      <div class="gmail-flexbox">
+        <img src="/cat.jpg" class="gmail-img">
+        <div class="gmail-text">
+          <div class="gmail-text-flex">
+            <p class="gmail-header">Chewy Promotions</p>
+            <p class="gmail-time">4:58 PM</p>
+          </div>
+          <p class="gmail-subheader">Biggest sales of the year!</p>
+          <p class="gmail-body">Hey there! We're writing to tell you about our...</p>
+        </div>
+      </div>
+      <!-- second mail -->
+      <div class="gmail-flexbox">
+        <img src="/cats photo.jpg" class="gmail-img">
+        <div class="gmail-text">
+          <div class="gmail-text-flex">
+            <p class="gmail-header">Best Buy</p>
+            <p class="gmail-time">12:32 PM</p>
+          </div>
+          <p class="gmail-subheader">Your Best Buy eReceipt</p>
+          <p class="gmail-body">Thank you for shopping at Best Buy, here is...</p>
+        </div>
+      </div>
+      <!-- third mail -->
+      <div class="gmail-flexbox">
+        <img src="/cat2.jpg" class="gmail-img">
+        <div class="gmail-text">
+          <div class="gmail-text-flex">
+            <p class="gmail-header">Netflix</p>
+            <p class="gmail-time">9:00 AM</p>
+          </div>
+          <p class="gmail-subheader">Here's what's coming soon to Netflix</p>
+          <p class="gmail-body">Brand new movies and shows, old favourites...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- exercise 13f -->
+  <div class="tweet-sample">
+    <div class="tweet-flex">
+      <img src="/cat.jpg" class="tweet-img">
+      <div class="tweet-info">
+        <div class="tweet-handle">supersimple.dev <span class="tweet-acct">@SuperSimpleDev</span></div>
+        <div class="tweet-body">What is backend web development? A complete overview. New video is up!</div>
+        <div class="link-flex">
+          <div class="link-img"></div>
+          <div class="link-info">
+            <div class="link-url">youtube.com</div>
+            <div class="link-text">Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

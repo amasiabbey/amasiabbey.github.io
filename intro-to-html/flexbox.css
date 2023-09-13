@@ -1,0 +1,303 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  width: 300px;
+  border-radius: 6px;
+  margin-top: 30px;
+  font-weight: 700;
+  
+}
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.notifications {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Lesson 13 exercises - nested flexbox */
+.nested-flexbox {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #212529;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.lesson-13-exercises {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.question-13a {
+  margin-top: 5px;
+  font-weight: 18px;
+}
+
+.flex-13a {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  width: 301px;
+  border-width: 1px;
+  padding: 5px;
+  border-color: rgb(192, 190, 190);
+  border-style: solid;
+  background-color: white;
+}
+
+.pink-item {
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue-item {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.item-1 {
+  width: 40px;
+  background-color: black;
+  color: white;
+}
+
+/* exercise 13b */
+.question-13b {
+  font-weight: 18px;
+}
+
+.flex-13b {
+  display: flex;
+  flex-direction: row;
+  height: px;
+  border-width: 1px;
+  border-style: solid;
+  width: 300px;
+  padding: 5px;
+  border-color: rgb(192, 190, 190);
+  background-color: white;
+}
+
+.pink-2 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.blue-2 {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.nested-column {
+  height: ;
+}
+
+.row1 {
+  margin-top: 2px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.nested-row {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row2 {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+}
+
+/* Challenge exercises */
+.gmail-ios {
+  box-shadow: 0px 1px 6px #0000003f;
+  border-radius: 3px;
+  margin-top: 50px;
+  margin-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all-inboxes {
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.gmail-flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.gmail-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.gmail-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.gmail-text-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gmail-header {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gmail-time {
+  color: gray;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gmail-subheader {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+.gmail-body {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: gray;
+  font-size: 15px;
+}
+
+.compare-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+/* exercise 13f */
+.tweet-sample {
+  padding: 10px;
+  width: 450px;
+  margin-top: 50px;
+}
+
+.tweet-flex {
+  display: flex;
+  align-items: start;
+}
+
+.tweet-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tweet-info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.tweet-handle {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.tweet-acct {
+  color: gray;
+  font-weight: 500;
+}
+
+.tweet-body {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.link-flex {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 350px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: rgb(210, 210, 210);
+  margin-top: 17px;
+}
+
+.link-img {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(210, 210, 210);
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.link-info {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.link-url {
+  margin-bottom: 3px;
+  color: gray;
+  font-weight: 17px;
+}
+
+.link-text {
+  font-size: 17px;
+  line-height: 23px;
+}
