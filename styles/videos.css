@@ -132,6 +132,10 @@ grid-template-columns: 50px 1fr;
   }
 }
 
+[class*="col-"] {
+  width: 100%;
+}
+
 .video-time {
   font-size: 12px;
   font-weight: 500;
