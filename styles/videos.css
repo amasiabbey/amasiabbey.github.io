@@ -108,7 +108,7 @@ grid-template-columns: 50px 1fr;
   font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 350px) {
   .video-grid {
     grid-template-columns: 1fr;
   }
